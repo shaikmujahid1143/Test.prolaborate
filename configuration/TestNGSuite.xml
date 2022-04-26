@@ -1,0 +1,248 @@
+<suite name="Test Suite">
+ <test name="Test case">
+
+ 
+<classes>
+<class name="CreateReview_Testcase.CreateReviewTest">
+
+
+</class>
+
+</classes>
+
+</test>
+
+ <!--  <test name="Test case1">
+
+<classes>
+<class name="CreateReview_Testcase.TC01_CheckEditRevName">
+
+
+</class>
+
+</classes>
+
+ </test>-->
+ <test name="Test case2">
+  
+ 
+<classes>
+<class name="CreateReview_Testcase.TC02_CheckRevActiveAndVerifyStartDateIsGrayed">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case3">
+<classes>
+<class name="CreateReview_Testcase.TC03_CheckApprDateWhenRevStartAlone">
+
+
+</class>
+
+</classes>
+
+</test>-->
+<test name="Test case4">
+<classes>
+<class name="CreateReview_Testcase.TC04_CheckRevEndDateBeyondApprEndDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case5">
+<classes>
+<class name="CreateReview_Testcase.TC05_CheckRevEnddateUpdateBeforeRevStartDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case6">
+<classes>
+<class name="CreateReview_Testcase.TC06_CheckApprEndDateBeforeApprStartDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case7">
+<classes>
+<class name="CreateReview_Testcase.TC07_CheckUpdateWhenRevStrtDateClosed">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case8">
+<classes>
+<class name="CreateReview_Testcase.TC08_CheckUpdateWhenApprStrtDateClosed">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case9">
+<classes>
+<class name="CreateReview_Testcase.TC09_CheckUpdateWhenRevStrtEndDateOnHold">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case10">
+<classes>
+<class name="CreateReview_Testcase.TC10_CheckUpdateWhenApprStrtEndDateOnHold">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case11">
+<classes>
+<class name="CreateReview_Testcase.TC11_CheckOnHoldRevActiveEditAndSave">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case12">
+<classes>
+<class name="CreateReview_Testcase.TC12_CheckClosedRevActiveEditAndExtendSave">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case13_14_15">
+<classes>
+<class name="CreateReview_Testcase.TC13_14_15_CheckArchievedRevActiveEditAndExtendSave">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case16_17">
+<classes>
+<class name="CreateReview_Testcase.TC16_17_CheckUpdateRevIncompleteToEditRevStrtDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case18_19">
+<classes>
+<class name="CreateReview_Testcase.TC18_19_CheckUpdateRevNotYetStartToEditRevStrtDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case20">
+
+<classes>
+<class name="CreateReview_Testcase.TC20_CheckUpdateRevIncompleteToEditRevStrtDate">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case21_22">
+<classes>
+<class name="CreateReview_Testcase.TC21_22_CheckUpdateInviteRevAndApprOptionRemoved">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case23">
+<classes>
+<class name="CreateReview_Testcase.TC23_CheckEditAndDisableEmailNotification">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case24_25">
+<classes>
+<class name="CreateReview_Testcase.TC24_25_CheckRevItemsAddAndDeleteToReviewer">
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Test case26">
+<classes>
+<class name="CreateReview_Testcase.TC26_28_29_30_31_CheckRemoveContributorAppr_RevrFromReview">
+
+
+</class>
+
+</classes>
+
+</test><test name="Test case27">
+<classes>
+<class name="CreateReview_Testcase.TC27_CheckModeratorCantEditAndRemoveRevCreator">
+
+
+</class>
+
+</classes>
+
+
+</test>
+
+
+</suite>

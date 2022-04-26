@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.test.pro.general_settings_testcase.GeneralSettings">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="checkInGeneralSettingAlinedsettingProperly"/>
+        </methods>
+      </class> <!-- org.test.pro.general_settings_testcase.GeneralSettings -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
